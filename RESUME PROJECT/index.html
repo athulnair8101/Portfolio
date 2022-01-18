@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoRtFoLiO</title>
+    <link rel="stylesheet" href="Poppins.zip">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="navbar" id="navbarid">
+        <div class="nav">
+            <a href="#about" class="logo">Athul<span>Nair</span></a>
+            <div class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <ul class="navigation" id="navigationid">
+            <li><a onclick="clickHandler()" href="#home">Home</a></li>
+            <li><a onclick="clickHandler()" href="#about">About</a></li>
+            <li><a onclick="clickHandler()" href="#projects">Projects</a></li>
+            <li><a onclick="clickHandler()" href="#contact">Contact</a></li>
+        </ul>
+
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Always Choose Quality</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque asperiores consequuntur modi, facere quos
+            </p>
+            <a href="#projects" class="btn">PROJECTS</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col1">
+                <h2 class="titleText"><span>A</span>bout Me</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae dolore culpa sapiente neque optio
+                    tempore! Magnam ut ad laudantium molestiae odit, nulla dolore voluptate quaerat, similique eaque
+                    repudiandae laborum, corrupti harum quasi voluptas nostrum?lorem12lorem12
+                </p>
+            </div>
+            <div class="col2">
+                <div class="imgBx">
+                    <img src="bg1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="title">
+            <h2 class="titleText"><span>P</span>ROJECTS</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt velit minus doloribus.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img2.jpg">
+                </div>
+                <div class="text">
+                    <h3>REACTJS Projects</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1.jpg">
+                </div>
+                <div class="text">
+                    <h3>JAVASCRIPT Projects</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img3.jpg">
+                </div>
+                <div class="text">
+                    <h3>PYTHON Projects</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1.jpg">
+                </div>
+                <div class="text">
+                    <h3>MAJOR Projects</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img3.jpg">
+                </div>
+                <div class="text">
+                    <h3>DSA Projects</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img2.jpg">
+                </div>
+                <div class="text">
+                    <h3>SQL Projects</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="content">
+            <h3><span>C</span>ONTACT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque nemo corporis id, doloribus
+                assumenda voluptatem.</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3><span>A</span>ddress</h3>
+                        <p>Lorem, ipsum dolor.<br> Lorem, ipsum dolor. <br>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h3><span>P</span>hone</h3>
+                        <p>1234567809</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <h3><span>E</span>mail</h3>
+                        <p>Lorem ipsum dolor sit.@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Send <span class="spam">M</span>essages</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Messages...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright"><i class="fa fa-copyright"></i>
+    <h4>The copyrights to this website is registered to Athul Nair</h4></div>
+    <script type="text/javascript">
+        var x = document.getElementById("navbarid");
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+            x.style.visibility = 'visible';
+        });
+        function myFunction() {
+            
+            if (x.className === "navbar") {
+                x.className += "responsive";
+            } else if (x.className === "navbar sticky") {
+                x.className = "navbarresponsive";
+            } else if (x.className === "navbarresponsive"){
+                x.className = "navbar sticky";
+            }else{
+                x.className = "navbar sticky";
+            }
+        };
+    </script>
+</body>
+
+</html>
